@@ -24,7 +24,7 @@ public class CourseDaoImpl implements CourseDao {
     public List<Course> getCourse() {
        // return courses;
         System.out.println("testing jenkins cicd pipeline by doing small comments");
-        System.out.println("testing jenkins cicd pipeline by doing small comments")
+        System.out.println("testing jenkins cicd pipeline by doing small comments");
          return oracleRepository.findAll();
     }
 
