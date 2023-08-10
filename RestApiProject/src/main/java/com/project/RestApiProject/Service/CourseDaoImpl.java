@@ -23,6 +23,7 @@ public class CourseDaoImpl implements CourseDao {
     @Override
     public List<Course> getCourse() {
        // return courses;
+        System.out.println("testing jenkins cicd pipeline");
          return oracleRepository.findAll();
     }
 
